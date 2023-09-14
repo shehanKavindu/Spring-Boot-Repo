@@ -14,7 +14,7 @@ public class Appinitializer {
         Skpojo bean = applicationContext.getBean(Skpojo.class);
         System.out.println(bean);
         Skpojo skpojo = new Skpojo();
-        skpojo.play();
+        skpojo.play()
     }
 }
 
